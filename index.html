@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Alex Chen</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Alex Chen</h1>
+            <p>Full Stack Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate developer with 5 years of experience in building modern web applications. I specialize in JavaScript, React, Node.js, and cloud technologies.</p>
+                    <p>I love solving complex problems and turning ideas into reality. Currently, I am exploring AI and machine learning to expand my skill set.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/300" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 / CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React & Redux</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js / Express</li>
+                        <li>Python / Django</li>
+                        <li>Java / Spring Boot</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Database</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>DevOps</h3>
+                    <ul>
+                        <li>Docker / Kubernetes</li>
+                        <li>AWS / Azure</li>
+                        <li>Git / CI/CD</li>
+                        <li>Linux Administration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Project 1">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured online store with payment integration and admin dashboard.</p>
+                    <a href="#" class="btn-small">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Project 2">
+                    <h3>Task Manager API</h3>
+                    <p>RESTful API for task management with JWT authentication and real-time updates.</p>
+                    <a href="#" class="btn-small">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Project 3">
+                    <h3>Weather Dashboard</h3>
+                    <p>Interactive weather app using OpenWeatherMap API and Chart.js visualizations.</p>
+                    <a href="#" class="btn-small">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Project 4">
+                    <h3>Social Media Clone</h3>
+                    <p>Feature-rich social network with posts, comments, likes, and user profiles.</p>
+                    <a href="#" class="btn-small">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="form-status"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Alex Chen. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
