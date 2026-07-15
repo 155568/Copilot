@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById('mobile-menu');
     const navLinks = document.querySelector('.nav-links');
-Cloud_StorageAQAAABUAAAABABAAAgMAEAA8AAAABAAQAAoAAAA=Cloud_Storage
     mobileMenu.addEventListener('click', function() {
         navLinks.classList.toggle('active');
     });
 
     document.querySelectorAll('.nav-links a').forEach(link => {
+        Cloud_StorageAQAAABUAAAABABAAAgMAEAA8AAAABAAQAAoAAAA=Cloud_Storage
         link.addEventListener('click', function(e) {
             e.preventDefault();
             const targetId = this.getAttribute('href').substring(1);
